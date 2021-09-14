@@ -1,0 +1,14 @@
+h1 { 
+    color: rgb(95, 11, 67);
+    background-color: blanchedalmond;
+    text-align: center;
+    text-decoration: underline cadetblue;
+    text-decoration-style: wavy;
+    outline: outset cadetblue;
+}
+Body {
+    background-image: url(IMG-3725.jpg);
+}
+p {background-color: blanchedalmond;
+    color: rgb(95, 11, 67);
+}
