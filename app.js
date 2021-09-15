@@ -1,4 +1,5 @@
 'use strict'; 
+
 let name = prompt('What is your name?');
 function getUserName(){
     //console.log(name)
@@ -22,7 +23,8 @@ alert("Correct!");
 else{
     alert("Incorrect!")
 }
-    //console.log(food)
+//console.log(food)
+
 let potato = prompt('Did I eat 4 potatoes worth of french fries for dinner?');
 if (potato.toLowerCase() == ('yes')){
 alert("Correct!");
@@ -31,6 +33,7 @@ else{
     alert("Incorrect!")
 }
 //console.log(potato)
+
 let cat = prompt('Do I have a cat?');
 if (cat.toLowerCase() == ('yes')){
 alert("Correct!");
