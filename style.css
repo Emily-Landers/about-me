@@ -6,9 +6,13 @@ h1 {
     text-decoration-style: wavy;
     outline: outset cadetblue;
 }
-Body {
-    background-image: url(IMG-3725.jpg);
-}
+html { 
+    background: url(IMG-3725.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 p {background-color: blanchedalmond;
     color: rgb(95, 11, 67);
 }
