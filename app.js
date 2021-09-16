@@ -1,4 +1,5 @@
 'use strict'; 
+
 let correctAnswers = 0
 let name = prompt('What is your name?');
 function getUserName(){
@@ -7,56 +8,72 @@ function getUserName(){
         document.write('Welcome ' + name)
 getUserName()
 
-let dog = prompt('Do I have a dog?');
-if (dog.toLowerCase() == ('yes')){
-alert("Correct!");
-correctAnswers++; 
-}
-else{
-    alert("Incorrect!")
+function puppy(){
+  let dog = prompt('Do I have a dog?');
+  if (dog.toLowerCase() == ('yes')){
+  alert("Correct!");
+  correctAnswers++; 
+  }
+  else{
+      alert("Incorrect!")
+  }
 }
 //console.log(dog)
 
-let food = prompt('Am I a vegetarian?');
-if (food.toLowerCase() == ('yes')){
-alert("Correct!");
-correctAnswers++;
-}
-else{
-    alert("Incorrect!")
+function vegetarian(){
+  let food = prompt('Am I a vegetarian?');
+  if (food.toLowerCase() == ('yes')){
+  alert("Correct!");
+  correctAnswers++;
+  }
+  else{
+      alert("Incorrect!")
+  }
 }
 //console.log(food)
 
-let potato = prompt('Did I eat 4 potatoes worth of french fries for dinner?');
-if (potato.toLowerCase() == ('yes')){
-alert("Correct!");
-correctAnswers++;
-}
-else{
-    alert("Incorrect!")
+function potatoes(){
+  let potato = prompt('Did I eat 4 potatoes worth of french fries for dinner?');
+  if (potato.toLowerCase() == ('yes')){
+  alert("Correct!");
+  correctAnswers++;
+  }
+  else{
+      alert("Incorrect!")
+  }
 }
 //console.log(potato)
 
-let cat = prompt('Do I have a cat?');
-if (cat.toLowerCase() == ('yes')){
-alert("Correct!");
-correctAnswers++;
-}
-else{
-    alert("Incorrect!")
+function myPet(){
+  let cat = prompt('Do I have a cat?');
+  if (cat.toLowerCase() == ('yes')){
+  alert("Correct!");
+  correctAnswers++;
+  }
+  else{
+      alert("Incorrect!")
+  }
 }
 //console.log(cat)
 
-let blonde = prompt('Is my hair naturally blonde?');
-if (blonde.toLowerCase() == ('no')){
-alert("Correct!");
-correctAnswers++;
-}
-else{
-    alert("Incorrect!")
+function hair(){
+  let blonde = prompt('Is my hair naturally blonde?');
+  if (blonde.toLowerCase() == ('no')){
+  alert("Correct!");
+  correctAnswers++;
+  }
+  else{
+      alert("Incorrect!")
+  }
 }
 //console.log(blonde)
 
+//Call functions for questions
+puppy();
+vegetarian();
+potatoes();
+myPet();
+hair();
 
 function game(){
     let play = prompt('Do you want to play a game?');
