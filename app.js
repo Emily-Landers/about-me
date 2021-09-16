@@ -62,19 +62,19 @@ function game(){
     let play = prompt('Do you want to play a game?');
     let correctAnswer; 
     if (play == 'yes'){
-    correctAnswer = Math.floor(Math.random() * 11);
+    correctAnswer = Math.floor(Math.random() * 100);
     }
     if (play.toLowerCase() == 'yes'){
         let numberOfAttempts = 4;
         for(let i = 1; i <= numberOfAttempts; i++){
-            let answer = prompt("Guess a number between 1 and 10");
+            let answer = prompt("Guess a number between 1 and 100");
             console.log("correct answer" , correctAnswer)
             console.log("your answer" , answer)
              if(answer < correctAnswer){
                  console.log("emily is better than sean at league")
-                alert('Your answer is to low.  Try Again! You have ' + (numberOfAttempts - i) + ' attempts left');  
+                alert('Your answer is to low. You have ' + (numberOfAttempts - i) + ' attempts left');  
             } else if (answer > correctAnswer){
-                alert('Your answer is to high.  Try Again! You have ' + (numberOfAttempts - i) + ' attempts left');
+                alert('Your answer is to high. You have ' + (numberOfAttempts - i) + ' attempts left');
             
             } else {
                 alert('You got it right!');
