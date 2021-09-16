@@ -109,4 +109,4 @@ function colorGame(){
 }
 colorGame()
 
- alert('You got ' + correctAnswers + ' out of 7 right!')
+ alert(`You got  ${correctAnswers} out of 7 right!`)

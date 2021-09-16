@@ -12,3 +12,15 @@ Body {
 p {background-color: blanchedalmond;
     color: rgb(95, 11, 67);
 }
+ol {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+h3 {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+ul {
+    background-color: blanchedalmond;
+    text-align: center ;
+}
