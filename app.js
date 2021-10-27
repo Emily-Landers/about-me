@@ -18,19 +18,19 @@ function puppy(){
       alert("Incorrect!")
   }
 }
-//console.log(dog)
+
 
 function vegetarian(){
   let food = prompt('Am I a vegetarian?');
   if (food.toLowerCase() == ('yes')){
   alert("Correct!");
+  //console.log("correct!")
   correctAnswers++;
   }
   else{
       alert("Incorrect!")
   }
 }
-//console.log(food)
 
 function potatoes(){
   let potato = prompt('Did I eat 4 potatoes worth of french fries for dinner?');
@@ -127,3 +127,4 @@ function colorGame(){
 colorGame()
 
  alert(`You got  ${correctAnswers} out of 7 right!`)
+ alert('Thank you for playing ' + name + '!')
