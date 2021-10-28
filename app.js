@@ -36,37 +36,37 @@ function potatoes(){
   let potato = prompt('Did I eat 4 potatoes worth of french fries for dinner?');
   if (potato.toLowerCase() == ('yes')){
   alert("Correct!");
+  //console.log("correct!")
   correctAnswers++;
   }
   else{
       alert("Incorrect!")
   }
 }
-//console.log(potato)
 
 function myPet(){
   let cat = prompt('Do I have a cat?');
   if (cat.toLowerCase() == ('yes')){
   alert("Correct!");
+  //console.log("correct!")
   correctAnswers++;
   }
   else{
       alert("Incorrect!")
   }
 }
-//console.log(cat)
 
 function hair(){
   let blonde = prompt('Is my hair naturally blonde?');
   if (blonde.toLowerCase() == ('no')){
   alert("Correct!");
+  //console.log("correct!")
   correctAnswers++;
   }
   else{
       alert("Incorrect!")
   }
 }
-//console.log(blonde)
 
 //Call functions for questions
 puppy();
