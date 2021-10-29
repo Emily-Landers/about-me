@@ -92,17 +92,19 @@ function game(){
                 alert('Your answer is to low. You have ' + (numberOfAttempts - i) + ' attempts left');  
             } else if (answer > correctAnswer){
                 alert('Your answer is to high. You have ' + (numberOfAttempts - i) + ' attempts left');
-            
             } else {
                 alert('You got it right!');
                 correctAnswers++;
                 break;
+            } if(numberOfAttempts < 1){
+                console.log('its working');
+                alert('The correct answer is ' + correctAnswer);
             }
-        
         }
         
     
     }
+    
 }
 game()
 
